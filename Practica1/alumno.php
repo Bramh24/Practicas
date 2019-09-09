@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="./css/foundation.css" />
     <script src="./js/vendor/modernizr.js"></script>
-	<title>Document</title>
+	<title>Alumno Nuevo</title>
 </head>
 <body>
 	<?php require_once('header.php'); ?>
