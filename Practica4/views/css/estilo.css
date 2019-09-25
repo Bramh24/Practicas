@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+  background: #313D52;
+}
+
+header{
+  width: 100%;
+}
+
+.navegacion{
+  width: 1000px;
+  margin: 30px auto;
+  background: #fff;
+}
+
+.navegacion ul{
+  list-style: none;
+}
+
+.menu > li{
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535;
+  font-family: 'Open sans';
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color: #CE7D35;
+  transition: all .3s;
+}
+
+/* Submenu*/
+
+.submenu{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  z-index: 999;
+
+}
+
+.submenu li a{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: 'Open sans';
+  text-decoration: none;
+}
+
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+section{
+      position: relative;
+      margin: auto;
+      width:400px;
+    }
+
+    section h1{
+      position: relative;
+      margin: auto;
+      padding:10px;
+      text-align: center;
+    }
+
+    section form{
+      position:relative;
+      margin:auto;
+      width:400px;
+    }
+
+    section form input{
+      display:inline-block;
+      padding:10px;
+      width:95%;
+      margin:5px;
+    }
+
+    section form input[type="submit"]{
+      position:relative;
+      margin:20px auto;
+      left:4.5%;
+
+    }
+
+    table{
+      position:relative;
+      margin-top:50px;
+      width:100%;
+      left:-33%;
+      background-color: white;
+    }
+
+    table thead tr th{
+      padding:10px;
+    }
+
+    table tbody tr td{
+      padding:10px;
+    }
