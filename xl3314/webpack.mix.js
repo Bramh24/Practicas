@@ -43,5 +43,11 @@ mix.styles([
 			'resources/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js',
 			'resources/dist/js/adminlte.js',
 			'resources/dist/js/pages/dashboard.js',
-			'resources/dist/js/demo.js'
+			'resources/dist/js/demo.js',
+			'resources/plugins/jquery-mousewheel/jquery.mousewheel.js',
+			'resources/plugins/raphael/raphael.min.js',
+			'resources/plugins/jquery-mapael/jquery.mapael.min.js',
+			'resources/plugins/jquery-mapael/maps/world_countries.min.js',
+			'resources/plugins/chart.js/Chart.min.js',
+			'resources/dist/js/pages/dashboard2.js'
 		], 'public/js/plantilla.js');
