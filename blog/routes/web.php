@@ -21,10 +21,15 @@ Route::put('categoria/actualizar', 'CategoriaController@update');
 Route::put('categoria/activar', 'CategoriaController@activar');
 //RUTA PARA DESACTIVAR REGISTRO A PARTIR DEL METODO ACTIVAR DEL CONTROLADOR "CATEGORIACONTROLLER"
 Route::put('categoria/desactivar', 'CategoriaController@desactivar');
-
 Route::get('categoria/selectCategoria', 'CategoriaController@selectCategoria');
 Route::get('categoria/listarPdf','CategoriaController@listarPdf')->name('categorias_pdf');
 
+Route::get('articulo', 'ArticuloController@index');
+Route::post('articulo/registrar', 'ArticuloController@store');
+Route::put('articulo/actualizar', 'ArticuloController@update');
+Route::put('articulo/activar', 'ArticuloController@activar');
+Route::put('articulo/desactivar', 'ArticuloController@desactivar');
+Route::get('articulo/listarPdf','ArticuloController@listarPdf')->name('articulos_pdf');
 
 Route::get('/', function () {
     return view('welcome');
